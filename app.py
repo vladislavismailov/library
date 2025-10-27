@@ -1,3 +1,6 @@
+import add_book
+from colorama import Fore, init, Style
+init()
 # Программа для управления библиотекой. Версия 0.1   2025
 # Авторы: Влад Исмаилов, Анатолий Уваров
 print('Вас приветствует программа "Библиотекарь"')
@@ -17,8 +20,7 @@ while True:
     print(menu)
     num = int(input("Введите номер действия: "))
     if num == 1:
-        #add_book()
-        print("Эта функция будет реализована позже: ")
+        add_book.show_menu(add_book.menu)
     elif num == 2:
         print("Эта функция будет реализована позже: ")
     elif num == 3:
@@ -32,6 +34,6 @@ while True:
     elif num == 0:
         break
     else:
-        print("ОШИБКА! Неправильно набран номер!")
+        print(Fore.RED + "ОШИБКА! Неправильно набран номер!" + Style.RESET_ALL)
 
 
