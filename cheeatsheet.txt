@@ -1,0 +1,17 @@
+import json
+
+books = [
+    {
+        title: 'Python is the best'
+    }
+]
+
+json_data = json.dumps(books, ensure_ascii=False) # Преобразование в JSON
+
+with open("database.json", "w", encoding= 'utf8') as db_file: # открытие файла на запись
+    db_file.write(json_data) # сохранение
+
+with open("database.json", "r", encoding= 'utf8') as db_file: # открытие на чтение
+    db = json.load(db_file)
+
+db[0]["author"]

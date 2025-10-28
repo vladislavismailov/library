@@ -1,3 +1,4 @@
+import db
 menu = '''
 Вы попали в меню добавления книги
 Добавить информацию:
@@ -47,7 +48,9 @@ def show_menu(menu):
             new_book["amount"] = amount
         if num == 7:
             if len(new_book["isbn"]) > 0 and len(new_book["title"]) > 0 and len(new_book["author"]) > 0 and new_book["year"] > 0 and new_book["pages"] > 0:
-                print(new_book) # Добавляем в базу
+                books = db.db_open()
+                books.append(new_book) 
+                db.db_write(books)# Добавляем в базу
                 break 
             else:
                 print("Ошибка! Заполнены не все поля!")
