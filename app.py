@@ -1,7 +1,9 @@
-import find_book
 # Программа для управления библиотекой. Версия 0.1   2025
 # Авторы: Влад Исмаилов, Анатолий Уваров
 import add_book
+import find_book
+import statistic
+import give_book
 from colorama import Fore, init, Style
 init()
 
@@ -25,11 +27,11 @@ while True:
     elif num == 2:
         find_book.show_menu(find_book.menu)
     elif num == 3:
-        print("Эта функция будет реализована позже: ")
+        give_book.show_menu(give_book.menu)
     elif num == 4:
         print("Эта функция будет реализована позже: ")
     elif num == 5:
-        print("Эта функция будет реализована позже: ")
+        statistic.show_menu(statistic.menu)   
     elif num == 6:
         print("Эта функция будет реализована позже: ")
     elif num == 0:
