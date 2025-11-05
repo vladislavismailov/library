@@ -5,7 +5,41 @@
         "isbn": "978-5-4461-0772-8",
         "year": 2018,
         "pages": 352,
-        "users": [
+        "users": [],
+        "amount": 2,
+        "users_history": [
+            {
+                "isbn": "978-5-4461-0772-8",
+                "iin": "810707350792",
+                "fio": "Anatoliy D. Uvarov",
+                "days": 14,
+                "start": "2025-11-01T21:37:28.510506",
+                "end": "2025-11-15T21:37:28.510506"
+            },
+            {
+                "isbn": "978-5-4461-0772-8",
+                "iin": "810707350792",
+                "fio": "Anatoliy D. Uvarov",
+                "days": 14,
+                "start": "2025-11-01T21:37:28.510506",
+                "end": "2025-11-15T21:37:28.510506"
+            },
+            {
+                "isbn": "978-5-4461-0772-8",
+                "iin": "830401354722",
+                "fio": "Василий Пупкин",
+                "days": 14,
+                "start": "2025-11-03T21:37:28.510506",
+                "end": "2025-11-18T21:37:28.510506"
+            },
+            {
+                "isbn": "978-5-4461-0772-8",
+                "iin": "810707350792",
+                "fio": "Anatoliy D. Uvarov",
+                "days": 14,
+                "start": "2025-11-01T21:37:28.510506",
+                "end": "2025-11-15T21:37:28.510506"
+            },
             {
                 "isbn": "978-5-4461-0772-8",
                 "iin": "810707350792",
@@ -14,8 +48,7 @@
                 "start": "2025-11-01T21:37:28.510506",
                 "end": "2025-11-15T21:37:28.510506"
             }
-        ],
-        "amount": 1
+        ]
     },
     {
         "title": "Человеческий фактор. Успешные проекты и команды",
@@ -24,7 +57,8 @@
         "year": 2014,
         "pages": 288,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Изучаем Python",
@@ -33,7 +67,8 @@
         "year": 2020,
         "pages": 832,
         "users": [],
-        "amount": 5
+        "amount": 5,
+        "users_history": []
     },
     {
         "title": "Теоретический минимум по Computer Science. Все что нужно программисту и разработчику",
@@ -42,7 +77,8 @@
         "year": 2018,
         "pages": 224,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Джоэл о программировании",
@@ -51,7 +87,8 @@
         "year": 2006,
         "pages": 352,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Компьютерные сети",
@@ -60,7 +97,8 @@
         "year": 2020,
         "pages": 960,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Архитектура компьютера",
@@ -69,7 +107,8 @@
         "year": 2018,
         "pages": 816,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Время игр! Отечественная игровая индустрия в лицах и мечтах: от Parkan до World of Tanks",
@@ -78,7 +117,8 @@
         "year": 2019,
         "pages": 304,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Интерфейс. Новые направления в проектировании компьютерных систем",
@@ -87,7 +127,8 @@
         "year": 2007,
         "pages": 272,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Заставьте данные говорить. Как сделать бизнес-дашборд в Excel. Руководство по визуализации данных",
@@ -96,7 +137,8 @@
         "year": 2022,
         "pages": 224,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Новая большая книга CSS",
@@ -105,7 +147,8 @@
         "year": 2016,
         "pages": 720,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Mass Effect: восхождение к звёздам. История создания космооперы BioWare",
@@ -114,7 +157,8 @@
         "year": 2021,
         "pages": 512,
         "users": [],
-        "amount": 5
+        "amount": 5,
+        "users_history": []
     },
     {
         "title": "JavaScript. Подробное руководство",
@@ -123,7 +167,8 @@
         "year": 2013,
         "pages": 1080,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Игродром. Что нужно знать о видеоиграх и игровой культуре",
@@ -132,7 +177,8 @@
         "year": 2021,
         "pages": 272,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Программируем на Python",
@@ -141,7 +187,8 @@
         "year": 2016,
         "pages": 416,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Изучаем SQL",
@@ -150,7 +197,8 @@
         "year": 2021,
         "pages": 400,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Путь фрилансера. Поколение людей, работающих в интернете",
@@ -159,7 +207,8 @@
         "year": 2019,
         "pages": 266,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Изучаем SQL",
@@ -168,7 +217,8 @@
         "year": 2012,
         "pages": 592,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "A Practitioner's Guide to Software Test Design",
@@ -177,7 +227,8 @@
         "year": 2003,
         "pages": 300,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Effective Java",
@@ -186,7 +237,8 @@
         "year": 2018,
         "pages": 464,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Head First. Паттерны проектирования. Обновленное юбилейное издание",
@@ -195,7 +247,8 @@
         "year": 2018,
         "pages": 640,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Java. Полное руководство",
@@ -204,7 +257,8 @@
         "year": 2012,
         "pages": 1104,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Джоэл. И снова о программировании",
@@ -213,7 +267,8 @@
         "year": 2009,
         "pages": 320,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Объектно-ориентированное программирование в C++",
@@ -222,7 +277,8 @@
         "year": 2008,
         "pages": 928,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Искусство автономного тестирования с примерами на С#",
@@ -231,7 +287,8 @@
         "year": 2016,
         "pages": 288,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "JavaScript. Шаблоны",
@@ -240,7 +297,8 @@
         "year": 2011,
         "pages": 240,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Сам себе программист. Как научиться программировать и устроиться в Ebay?",
@@ -249,7 +307,8 @@
         "year": 2018,
         "pages": 208,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Современные методы описания функциональных требований к системам",
@@ -258,7 +317,8 @@
         "year": 2012,
         "pages": 256,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Графика",
@@ -267,7 +327,8 @@
         "year": 2009,
         "pages": 96,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "UML. Основы. Третье издание. Краткое руководство по стандартному языку объектного моделирования",
@@ -276,7 +337,8 @@
         "year": 2013,
         "pages": 192,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Теоретический минимум по Big Data. Всё что нужно знать о больших данных",
@@ -285,7 +347,8 @@
         "year": 2019,
         "pages": 192,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Проектирование виртуальных миров. Теория и практика дизайна уровней",
@@ -294,7 +357,8 @@
         "year": 2019,
         "pages": 320,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Создаем динамические веб-сайты с помощью PHP, MySQL и JavaScript",
@@ -303,7 +367,8 @@
         "year": 2013,
         "pages": 496,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Структуры данных и алгоритмы Java",
@@ -312,7 +377,8 @@
         "year": 2011,
         "pages": 800,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Биткоин для всех",
@@ -321,7 +387,8 @@
         "year": 2018,
         "pages": 128,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "GAME isn't OVER. Любимые приставки и игры, в которые рубились целые поколения",
@@ -330,7 +397,8 @@
         "year": 2021,
         "pages": 288,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Spring in Action",
@@ -339,7 +407,8 @@
         "year": 2020,
         "pages": 528,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Дашборд для директора",
@@ -348,7 +417,8 @@
         "year": 2019,
         "pages": 160,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Руководство по DevOps. Как добиться гибкости, надежности и безопасности мирового уровня в технологических компаниях",
@@ -357,7 +427,8 @@
         "year": 2018,
         "pages": 480,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Photoshop LAB Color. Загадка каньона и другие приключения в самом мощном цветовом пространстве",
@@ -366,7 +437,8 @@
         "year": 2006,
         "pages": 320,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Путь аналитика. Практическое руководство IT-специалиста",
@@ -375,7 +447,8 @@
         "year": 2012,
         "pages": 256,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Карьера менеджера IT-проекта. Как устроиться на работу в ведущую технологическую компанию",
@@ -384,7 +457,8 @@
         "year": 2014,
         "pages": 336,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Факты и заблуждения профессионального программирования",
@@ -393,7 +467,8 @@
         "year": 2007,
         "pages": 272,
         "users": [],
-        "amount": 5
+        "amount": 5,
+        "users_history": []
     },
     {
         "title": "Самые знаменитые компьютерные игры",
@@ -402,7 +477,8 @@
         "year": 2014,
         "pages": 256,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Информационная эпоха. Экономика, общество и культура",
@@ -411,7 +487,8 @@
         "year": 2000,
         "pages": 608,
         "users": [],
-        "amount": 5
+        "amount": 5,
+        "users_history": []
     },
     {
         "title": "Apache Kafka. Потоковая обработка и анализ данных",
@@ -420,7 +497,8 @@
         "year": 2019,
         "pages": 288,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Photoshop для профессионалов. Классическое руководство по цветокоррекции (+ CD-ROM)",
@@ -429,7 +507,8 @@
         "year": 2007,
         "pages": 464,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Моделирование бизнес-процессов в нотации BPMN. Пособие для начинающих. Часть I",
@@ -438,7 +517,8 @@
         "year": 2018,
         "pages": 128,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Страдания юного хакера",
@@ -447,7 +527,8 @@
         "year": 2002,
         "pages": 320,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Пузыри. Айти для детей и их родителей",
@@ -456,7 +537,8 @@
         "year": 2020,
         "pages": 160,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Секреты и ложь. Безопасность данных в цифровом мире",
@@ -465,7 +547,8 @@
         "year": 2003,
         "pages": 368,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Криптовалюта Prizm. Заработай сегодня! Парамайнинг, биржа и СПЕЙС БОТ",
@@ -474,7 +557,8 @@
         "year": 2018,
         "pages": 80,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Элегантные объекты. Java Edition",
@@ -483,7 +567,8 @@
         "year": 2019,
         "pages": 240,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Искусство цифровой самозащиты",
@@ -492,7 +577,8 @@
         "year": 2023,
         "pages": 256,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Web-дизайн. Удобство использования Web-сайтов",
@@ -501,7 +587,8 @@
         "year": 2007,
         "pages": 368,
         "users": [],
-        "amount": 5
+        "amount": 5,
+        "users_history": []
     },
     {
         "title": "Java 2. Библиотека профессионала, том 2. Тонкости программирования",
@@ -510,7 +597,8 @@
         "year": 2009,
         "pages": 864,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Лучшие примеры разработки ПО",
@@ -519,7 +607,8 @@
         "year": 2007,
         "pages": 288,
         "users": [],
-        "amount": 5
+        "amount": 5,
+        "users_history": []
     },
     {
         "title": "Введение в SQL",
@@ -528,7 +617,8 @@
         "year": 2000,
         "pages": 272,
         "users": [],
-        "amount": 5
+        "amount": 5,
+        "users_history": []
     },
     {
         "title": "Графический дизайн. Фирменный стиль, новейшие технологии и креативные идеи",
@@ -537,7 +627,8 @@
         "year": 2006,
         "pages": 160,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Алгоритмы. Теория и практическое применение",
@@ -546,7 +637,8 @@
         "year": 2019,
         "pages": 368,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Изучаем PHP и MySQL",
@@ -555,7 +647,8 @@
         "year": 2010,
         "pages": 592,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Профессиональная разработка программного обеспечения",
@@ -564,7 +657,8 @@
         "year": 2007,
         "pages": 416,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Защищенный код",
@@ -573,7 +667,8 @@
         "year": 2005,
         "pages": 480,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "HTML и XHTML. Подробное руководство, 6-е издание",
@@ -582,7 +677,8 @@
         "year": 2008,
         "pages": 688,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Программирование на Python 3. Подробное руководство",
@@ -591,7 +687,8 @@
         "year": 2009,
         "pages": 608,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Компиляторы. Принципы, технологии и инструментарий",
@@ -600,7 +697,8 @@
         "year": 2008,
         "pages": 1184,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Объектно-ориентированный анализ и проектирование с примерами приложений",
@@ -609,7 +707,8 @@
         "year": 2008,
         "pages": 720,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Чистый код. Создание, анализ и рефакторинг",
@@ -618,7 +717,8 @@
         "year": 2010,
         "pages": 464,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Совершенный код",
@@ -627,7 +727,8 @@
         "year": 2005,
         "pages": 896,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Программист-прагматик. Путь от подмастерья к мастеру",
@@ -636,7 +737,8 @@
         "year": 2010,
         "pages": 352,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Рефакторинг. Улучшение существующего кода",
@@ -645,7 +747,8 @@
         "year": 2011,
         "pages": 432,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Мифический человеко-месяц, или Как создаются программные системы",
@@ -654,7 +757,8 @@
         "year": 2000,
         "pages": 304,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Паттерны проектирования",
@@ -663,7 +767,8 @@
         "year": 2011,
         "pages": 366,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Грокаем алгоритмы",
@@ -681,7 +786,8 @@
                 "end": "2026-11-01T22:03:55.984009"
             }
         ],
-        "amount": 0
+        "amount": 0,
+        "users_history": []
     },
     {
         "title": "Компьютерные сети. Принципы, технологии, протоколы",
@@ -690,7 +796,8 @@
         "year": 2016,
         "pages": 992,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Основы локальных компьютерных сетей",
@@ -699,7 +806,8 @@
         "year": 2016,
         "pages": 272,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Интернет изнутри. Экосистема глобальной сети",
@@ -708,7 +816,8 @@
         "year": 2017,
         "pages": 320,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Сетевое администрирование Linux",
@@ -717,7 +826,8 @@
         "year": 2019,
         "pages": 416,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Введение в системы баз данных",
@@ -726,7 +836,8 @@
         "year": 2010,
         "pages": 1328,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "SQL за 10 минут",
@@ -735,7 +846,8 @@
         "year": 2019,
         "pages": 288,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "PostgreSQL изнутри",
@@ -744,7 +856,8 @@
         "year": 2019,
         "pages": 336,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "MySQL 8 для больших данных",
@@ -753,7 +866,8 @@
         "year": 2020,
         "pages": 400,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Цифровая схемотехника и архитектура компьютера",
@@ -762,7 +876,8 @@
         "year": 2016,
         "pages": 800,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Компьютер глазами хакера",
@@ -771,7 +886,8 @@
         "year": 2013,
         "pages": 336,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Архитектуры вычислительных систем",
@@ -780,7 +896,8 @@
         "year": 2016,
         "pages": 384,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Компьютерная архитектура. Количественный подход",
@@ -789,7 +906,8 @@
         "year": 2012,
         "pages": 928,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Введение в алгоритмы",
@@ -798,7 +916,8 @@
         "year": 2013,
         "pages": 1328,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Операционные системы",
@@ -807,7 +926,8 @@
         "year": 2016,
         "pages": 1120,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Искусственный интеллект. Современный подход",
@@ -816,7 +936,8 @@
         "year": 2010,
         "pages": 1408,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Python для сложных задач",
@@ -825,7 +946,8 @@
         "year": 2018,
         "pages": 592,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Глубокое обучение",
@@ -834,7 +956,8 @@
         "year": 2018,
         "pages": 652,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "DDD. Предметно-ориентированное проектирование",
@@ -843,7 +966,8 @@
         "year": 2011,
         "pages": 448,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Не заставляйте меня думать",
@@ -852,7 +976,8 @@
         "year": 2011,
         "pages": 216,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Эмоциональный веб-дизайн",
@@ -861,7 +986,8 @@
         "year": 2012,
         "pages": 160,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Agile. Оценка и планирование проектов",
@@ -870,7 +996,8 @@
         "year": 2008,
         "pages": 368,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Kanban. Альтернативный путь в agile",
@@ -879,7 +1006,8 @@
         "year": 2011,
         "pages": 272,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Экстремальное программирование. Разработка через тестирование",
@@ -888,7 +1016,8 @@
         "year": 2007,
         "pages": 224,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Тестирование DOT COM",
@@ -897,7 +1026,8 @@
         "year": 2007,
         "pages": 368,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Уроки тестирования ПО",
@@ -906,7 +1036,8 @@
         "year": 2006,
         "pages": 544,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Как тестируют в Google",
@@ -915,7 +1046,8 @@
         "year": 2013,
         "pages": 336,
         "users": [],
-        "amount": 5
+        "amount": 5,
+        "users_history": []
     },
     {
         "title": "Построение бизнес-моделей",
@@ -924,7 +1056,8 @@
         "year": 2011,
         "pages": 288,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Стартап без бюджета",
@@ -933,7 +1066,8 @@
         "year": 2011,
         "pages": 304,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Доставляя счастье",
@@ -942,7 +1076,8 @@
         "year": 2010,
         "pages": 304,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Клиенты на всю жизнь",
@@ -951,7 +1086,8 @@
         "year": 2005,
         "pages": 224,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "От хорошего к великому",
@@ -960,7 +1096,8 @@
         "year": 2011,
         "pages": 320,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "7 навыков высокоэффективных людей",
@@ -969,7 +1106,8 @@
         "year": 2011,
         "pages": 396,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Как завоевывать друзей и оказывать влияние на людей",
@@ -978,7 +1116,8 @@
         "year": 2014,
         "pages": 256,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Думай и богатей",
@@ -987,7 +1126,8 @@
         "year": 2013,
         "pages": 320,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Атлант расправил плечи",
@@ -996,7 +1136,8 @@
         "year": 2011,
         "pages": 1360,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     },
     {
         "title": "Квадрант денежного потока",
@@ -1005,7 +1146,8 @@
         "year": 2013,
         "pages": 352,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "Богатый папа, бедный папа",
@@ -1014,7 +1156,8 @@
         "year": 2013,
         "pages": 224,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Дао Toyota. 14 принципов менеджмента ведущей компании мира",
@@ -1023,7 +1166,8 @@
         "year": 2011,
         "pages": 400,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Цель. Процесс непрерывного улучшения",
@@ -1032,7 +1176,8 @@
         "year": 2012,
         "pages": 496,
         "users": [],
-        "amount": 1
+        "amount": 1,
+        "users_history": []
     },
     {
         "title": "Психология продаж",
@@ -1041,7 +1186,8 @@
         "year": 2014,
         "pages": 224,
         "users": [],
-        "amount": 2
+        "amount": 2,
+        "users_history": []
     },
     {
         "title": "SPIN-продажи",
@@ -1050,7 +1196,8 @@
         "year": 2011,
         "pages": 336,
         "users": [],
-        "amount": 5
+        "amount": 5,
+        "users_history": []
     },
     {
         "title": "Как продать что угодно и кому угодно",
@@ -1059,6 +1206,7 @@
         "year": 2013,
         "pages": 208,
         "users": [],
-        "amount": 3
+        "amount": 3,
+        "users_history": []
     }
 ]

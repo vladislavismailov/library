@@ -5,6 +5,7 @@ import add_book
 import find_book
 import statistic
 import give_book
+import return_book
 from colorama import Fore, init, Style
 init()
 
@@ -32,7 +33,7 @@ while True:
     elif num == 3:
         give_book.show_menu(give_book.menu)
     elif num == 4:
-        print("Эта функция будет реализована позже: ")
+        return_book.show_menu(return_book.menu)
     elif num == 5:
         statistic.show_menu(statistic.menu)   
     elif num == 6:
