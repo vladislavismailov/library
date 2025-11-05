@@ -1,5 +1,6 @@
 # Программа для управления библиотекой. Версия 0.1   2025
 # Авторы: Влад Исмаилов, Анатолий Уваров
+import utils
 import add_book
 import find_book
 import statistic
@@ -7,8 +8,9 @@ import give_book
 from colorama import Fore, init, Style
 init()
 
-print('Вас приветствует программа "Библиотекарь"')
+
 menu = '''
+Вас приветствует программа "Библиотекарь"
 Главное меню
     1 - добавить книгу в библиотеку,
     2 - искать книги в библиотеке, 
@@ -20,6 +22,7 @@ menu = '''
 '''
 isbn = 0
 while True:
+    utils.clear_screen()
     print(menu)
     num = int(input("Введите номер действия: "))
     if num == 1:

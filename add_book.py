@@ -1,4 +1,5 @@
 import db
+import utils
 menu = '''
 Вы попали в меню добавления книги
 Добавить информацию:
@@ -24,6 +25,7 @@ new_book = {
 
 def show_menu(menu):
     while True:
+        utils.clear_screen()
         print(menu)
         num = int(input("Введите номер действия: "))
         if num == 0:

@@ -1,4 +1,6 @@
+from datetime import datetime, timedelta
 import db
+import utils
 from colorama import Fore, init, Style
 init()
 menu = '''
@@ -22,6 +24,7 @@ user = {
 }
 
 def show_menu(menu):
+    utils.clear_screen()
     while True:
         print(menu)
         num = int(input("Введите номер действия: "))
@@ -43,13 +46,30 @@ def show_menu(menu):
             flag = False
             if len(iin) == 12 and iin.isdigit() == True:
                 user["iin"] = iin
-                flag == True
+                flag = True
             if flag == False:
                 print(f"{Fore.RED}Ошибка! Данный ИИН Не Верный{Style.RESET_ALL}")
         if num == 3:
             fio = input("ВВедите ФИО Читателя: ")
             user["fio"] = fio
         if num == 4:
-            print("Эта функция будет реализована позже: ")
+            days = int(input("Введите на сколько дней выдать книгу от 1 до 365: "))
+            if days > 0 and days < 366:
+                user["days"] = days
+            else:
+                print(f"{Fore.RED}Ошибка! Введите число от 1 до 365{Style.RESET_ALL}")
         if num == 5:
-            print("Эта функция будет реализована позже: ")
+            if len(user["isbn"]) > 0 and len(user["iin"]) > 0 and  len(user["fio"]) > 0:
+                user["start"] = datetime.now().isoformat()
+                user["end"] = (datetime.now() + timedelta(days=user["days"])).isoformat()
+                print(user)
+                for book in books:
+                    if book["isbn"] == user["isbn"]:
+                        if book["amount"] >= 1:
+                            book["users"].append(user)
+                            book["amount"] -= 1
+                            print(book)
+                            db.db_write(books)
+            else:
+                print(f"{Fore.RED}Ошибка! Заполнены не все поля{Style.RESET_ALL}")
+ 

@@ -15,3 +15,15 @@ with open("database.json", "r", encoding= 'utf8') as db_file: # открытие
     db = json.load(db_file)
 
 db[0]["author"]
+=====================================
+from datetime import datetime, timedelta
+
+start = datetime.now()
+days = 14
+end = start + timedelta(days=14)
+
+print(f"Начало: {start}")
+print(f"Дельта: {days}")
+print(f"Конец: {end}")
+
+=================================

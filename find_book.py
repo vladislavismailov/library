@@ -1,5 +1,6 @@
 from colorama import Fore, init, Style
 import db
+import utils
 init()
 menu = '''
 Вы попали в меню поиска книги
@@ -85,6 +86,7 @@ def by_author(author):
     print(f"{Fore.BLUE}Найдено книг: {counter}{Style.RESET_ALL}")
 
 def show_menu(menu):
+    utils.clear_screen()
     while True:
         print(menu)
         num = int(input("Введите номер действия: "))
