@@ -27,3 +27,7 @@ print(f"Дельта: {days}")
 print(f"Конец: {end}")
 
 =================================
+построчное чтение файла
+    with open(py_file, "r", encoding= 'utf8') as file:
+        for line in file:
+            line_counter += 1

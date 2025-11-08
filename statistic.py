@@ -1,3 +1,4 @@
+from datetime import datetime, timedelta
 from colorama import Fore, init, Style
 init()
 import db
@@ -9,6 +10,7 @@ menu = '''
 Выберите раздел:
     1 - количество книг,
     2 - количество выданных книг,
+    3 - книги на просрочке,
     0 - выход в главное меню
 '''
 
@@ -28,7 +30,27 @@ def count_gived_books():
         counter_book += len(book["users"])
     utils.clear_screen()
     print(f"{Fore.BLUE}Из библиотеки выдано: {counter_book}{Style.RESET_ALL}")
-
+def retured_books():
+    books = db.db_open()
+    counter_books = 0
+    for book in books:
+            overdue_days = 0
+            for user in book["users"]:
+                if datetime.now().isoformat() > user["end"]:
+                    d1 = datetime.fromisoformat(user["end"])
+                    d2 = datetime.now()
+                    overdue_days = (d2 - d1).days
+                    print(f"Название: {book["title"]}")
+                    print(f"ИСБН: {book["isbn"]}")
+                    print(f"Владелец: {user["fio"]}")
+                    print(f"Книгу Взяли С: {user["start"]}")
+                    print(f"Должны Отдать: {user["end"]}")
+                    print(f"ИИН Пользователя: {user["iin"]}")
+                    print(f"{Fore.RED}: Книга Просроченна На: {overdue_days}Дней{Style.RESET_ALL}")
+                    print("############################################")
+                    counter_books += 1
+    print(f"Всего Просроченных Книг: {counter_books}")
+    
 def show_menu(menu):
     utils.clear_screen()
     while True:
@@ -40,3 +62,5 @@ def show_menu(menu):
             get_total_books()
         if num == 2:
             count_gived_books()
+        if num == 3:
+            retured_books()

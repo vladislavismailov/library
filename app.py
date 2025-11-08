@@ -21,11 +21,18 @@ menu = '''
     0 - выход из программы
 
 '''
+error_line = ''
 isbn = 0
 while True:
     utils.clear_screen()
     print(menu)
-    num = int(input("Введите номер действия: "))
+    if len(error_line) > 0:
+        print(Fore.RED + error_line + Style.RESET_ALL )
+    try:
+        num = int(input("Введите номер действия: "))
+    except ValueError:
+        error_line = "Вы ввели не номер!!!"
+        continue
     if num == 1:
         add_book.show_menu(add_book.menu)
     elif num == 2:
