@@ -28,6 +28,7 @@ while True:
     print(menu)
     if len(error_line) > 0:
         print(Fore.RED + error_line + Style.RESET_ALL )
+        error_line = ''
     try:
         num = int(input("Введите номер действия: "))
     except ValueError:
@@ -48,6 +49,6 @@ while True:
     elif num == 0:
         break
     else:
-        print(Fore.RED + "ОШИБКА! Неправильно набран номер!" + Style.RESET_ALL)
+        error_line = "ОШИБКА! Неправильно набран номер!"
 
 

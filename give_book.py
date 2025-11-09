@@ -24,13 +24,21 @@ user = {
 }
 
 def show_menu(menu):
-    utils.clear_screen()
+    error_line = ""
     while True:
+        utils.clear_screen()
         print(menu)
-        num = int(input("Введите номер действия: "))
+        if len(error_line) > 0:
+            print(Fore.RED + error_line + Style.RESET_ALL )
+        error_line = ''
+        try:
+            num = int(input("Введите номер действия: "))
+        except ValueError:
+                error_line = "Вы ввели не номер!!!"
+                continue
         if num == 0:
             break
-        if num == 1:
+        elif num == 1:
             isbn = input("ВВедите ИСБН: ")
             flag = False
             books = db.db_open()
@@ -41,7 +49,7 @@ def show_menu(menu):
                     flag = True
             if flag == False:
                 print(f"{Fore.RED}Ошибка! Данный ИСБН Не Верный{Style.RESET_ALL}")
-        if num == 2:
+        elif num == 2:
             iin = input("ВВедите ИИН: ")
             flag = False
             if len(iin) == 12 and iin.isdigit() == True:
@@ -49,16 +57,20 @@ def show_menu(menu):
                 flag = True
             if flag == False:
                 print(f"{Fore.RED}Ошибка! Данный ИИН Не Верный{Style.RESET_ALL}")
-        if num == 3:
+        elif num == 3:
             fio = input("ВВедите ФИО Читателя: ")
             user["fio"] = fio
-        if num == 4:
-            days = int(input("Введите на сколько дней выдать книгу от 1 до 365: "))
+        elif num == 4:
+            try:
+                days = int(input("Введите на сколько дней выдать книгу от 1 до 365: "))
+            except ValueError:
+                error_line = "Вы ввели не число!!!"
+                continue
             if days > 0 and days < 366:
                 user["days"] = days
             else:
                 print(f"{Fore.RED}Ошибка! Введите число от 1 до 365{Style.RESET_ALL}")
-        if num == 5:
+        elif num == 5:
             if len(user["isbn"]) > 0 and len(user["iin"]) > 0 and  len(user["fio"]) > 0:
                 user["start"] = datetime.now().isoformat()
                 user["end"] = (datetime.now() + timedelta(days=user["days"])).isoformat()
@@ -71,5 +83,8 @@ def show_menu(menu):
                             print(book)
                             db.db_write(books)
             else:
-                print(f"{Fore.RED}Ошибка! Заполнены не все поля{Style.RESET_ALL}")
+                error_line = "Ошибка! Заполнены не все поля"
+                continue
+        else:
+            error_line = "Ошибка! Неправильно набран номер действия"
  

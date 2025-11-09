@@ -86,21 +86,35 @@ def by_author(author):
     print(f"{Fore.BLUE}Найдено книг: {counter}{Style.RESET_ALL}")
 
 def show_menu(menu):
-    utils.clear_screen()
+    error_line = ''
     while True:
+        utils.clear_screen()
         print(menu)
-        num = int(input("Введите номер действия: "))
+        if len(error_line) > 0:
+            print(Fore.RED + error_line + Style.RESET_ALL )
+        error_line = ''
+        try:
+            num = int(input("Введите номер действия: "))
+        except ValueError:
+                error_line = "Вы ввели не номер!!!"
+                continue
         if num == 0:
             break
-        if num == 1:
+        elif num == 1:
             isbn = input("Введите ИСБН: ")
             by_isbn(isbn)
-        if num == 2:
+        elif num == 2:
             title = input("Введите Часть Названия: ")
             by_title(title)
-        if num == 3:
+        elif num == 3:
             author = input("Введите автора: ")
             by_author(author)
-        if num == 4:
-            year = input("Введите год: ")
+        elif num == 4:
+            try:
+                year = int(input("Введите год: "))
+            except ValueError:
+                error_line = "Вы ввели не номер!!!"
+                continue
             by_year(year)
+        else:
+            error_line = "Ошибка! Введите Верное Число!"

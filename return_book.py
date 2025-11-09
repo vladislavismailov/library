@@ -10,9 +10,18 @@ menu = '''
     0 - выход в гланое меню
 '''
 def show_menu(menu):
+    error_line = ''
     while True:
+        utils.clear_screen()
         print(menu)
-        num = int(input("Введите номер действия: "))
+        if len(error_line) > 0:
+            print(Fore.RED + error_line + Style.RESET_ALL )
+            error_line = ''
+        try:
+            num = int(input("Введите номер действия: "))
+        except ValueError:
+                error_line = "Вы ввели не номер!!!"
+                continue
         books = db.db_open()
         if num == 1:
             isbn = input("Введите ИСБН: ")
@@ -41,7 +50,7 @@ def show_menu(menu):
                     break
 
 
-        if num == 2:
+        elif num == 2:
             iin = input("Введите ИИН Пользователя Который Возвращает Книгу: ")
             user_books = []
             name = ""
@@ -58,7 +67,10 @@ def show_menu(menu):
                 print(f"{index} - ({book["isbn"]}) {book["title"]}")
                 index += 1
             while True:
-                index = int(input("Введите номер книги: "))
+                try:
+                    index = int(input("Введите номер книги: "))
+                except ValueError:
+                    error_line = "Вы ввели не номер!!!"
                 if index >= 1 and index <= len(user_books):
                     break
                 print(f'{Fore.RED}Ошибка.  Введён неверный номер.{Style.RESET_ALL}')
@@ -72,5 +84,7 @@ def show_menu(menu):
                         db.db_write(books)
                         print(f"{Fore.GREEN}Книжка успешно возвращена{Style.RESET_ALL}")
                         break
-        if num == 0:
+        elif num == 0:
             break
+        else:
+            error_line = "Ошибка! Введено неправильно число!"
