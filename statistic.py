@@ -52,15 +52,25 @@ def retured_books():
     print(f"Всего Просроченных Книг: {counter_books}")
     
 def show_menu(menu):
+    error_line = ""
     utils.clear_screen()
     while True:
         print(menu)
-        num = int(input("Введите номер действия: "))
+        if len(error_line) > 0:
+            print(Fore.RED + error_line + Style.RESET_ALL )
+        error_line = ''
+        try:
+            num = int(input("Введите номер действия: "))
+        except ValueError:
+                error_line = "Вы ввели не номер!!!"
+                continue
         if num == 0:
             break
-        if num == 1:
+        elif num == 1:
             get_total_books()
-        if num == 2:
+        elif num == 2:
             count_gived_books()
-        if num == 3:
+        elif num == 3:
             retured_books()
+        else:
+            error_line = "Введите верный номер действия: "
