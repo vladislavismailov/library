@@ -11,6 +11,7 @@ menu = '''
     1 - количество книг,
     2 - количество выданных книг,
     3 - книги на просрочке,
+    4 - лучшие 5 книг библиотеки,
     0 - выход в главное меню
 '''
 
@@ -51,6 +52,45 @@ def retured_books():
                     counter_books += 1
     print(f"Всего Просроченных Книг: {counter_books}")
     
+def top5_books():
+    live_books = {}
+    top5  = {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [], 
+    "5": []}
+    max = 0
+    index = 1
+    books = db.db_open()
+    for book in books:
+        if len(book["users"]) > 0 or len(book["users_history"]) > 0:
+            live_books[book["isbn"]] = len(book["users"]) + len(book["users_history"])
+    for top in top5:
+        for isbn in live_books:
+            if index == 1:
+                if live_books[isbn] > max:
+                    max = live_books[isbn]
+            elif live_books[isbn] > max and live_books[isbn] < live_books[top5[str(index - 1)][0]]:
+                max = live_books[isbn]
+        for isbn in live_books:
+            if live_books[isbn] == max:
+                top5[str(index)].append(isbn)
+        max = 0
+        index += 1
+    for top in top5:
+        print(top + " Место")
+        for isbn in top5[top]:
+            for book in books:
+                if isbn == book["isbn"]:
+                    print(f"Название: {book["title"]}")
+                    print(f"ИСБН: {isbn}")
+                    print(f"Брали: {live_books[isbn]}")
+                    print(f"Автор: {book["author"]}")
+                    print("                                              ")
+        print("====================================================================")
+
+
 def show_menu(menu):
     error_line = ""
     utils.clear_screen()
@@ -72,5 +112,8 @@ def show_menu(menu):
             count_gived_books()
         elif num == 3:
             retured_books()
+        elif num == 4:
+            top5_books()
         else:
             error_line = "Введите верный номер действия: "
+    
